@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "category": "career_growth",
+    "tone": "professional",
+    "topic": "learning consistency",
+    "text": "Growth rarely comes from one big breakthrough. It usually comes from showing up consistently, learning from mistakes, and improving a little every day. Focus on progress, not perfection."
+  },
+  {
+    "id": 2,
+    "category": "career_growth",
+    "tone": "reflective",
+    "topic": "early career lessons",
+    "text": "One lesson I am learning early in my career is that asking thoughtful questions is a strength, not a weakness. Curiosity helps us learn faster, collaborate better, and avoid repeating mistakes."
+  },
+  {
+    "id": 3,
+    "category": "technology",
+    "tone": "informative",
+    "topic": "AI in everyday work",
+    "text": "AI is becoming useful not just for complex research, but also for everyday tasks such as summarizing information, brainstorming ideas, and automating repetitive work. The real advantage comes from knowing when to use it and how to verify its output."
+  },
+  {
+    "id": 4,
+    "category": "technology",
+    "tone": "professional",
+    "topic": "building projects",
+    "text": "Building a project teaches lessons that tutorials often cannot: how to handle edge cases, debug unexpected behavior, and make trade-offs. A small finished project can be more valuable than a large idea that never ships."
+  },
+  {
+    "id": 5,
+    "category": "leadership",
+    "tone": "inspirational",
+    "topic": "teamwork",
+    "text": "Strong teams are not built by people who always agree. They are built by people who listen carefully, challenge ideas respectfully, and stay focused on the shared goal."
+  },
+  {
+    "id": 6,
+    "category": "leadership",
+    "tone": "professional",
+    "topic": "giving feedback",
+    "text": "Useful feedback is specific, timely, and focused on behavior rather than personality. When delivered with respect, it gives people a clear path to improve and helps teams build trust."
+  },
+  {
+    "id": 7,
+    "category": "job_search",
+    "tone": "grateful",
+    "topic": "interview learning",
+    "text": "Every interview is an opportunity to understand my strengths and identify areas to improve. I am focusing on preparation, clear communication, and learning something useful from every experience."
+  },
+  {
+    "id": 8,
+    "category": "job_search",
+    "tone": "professional",
+    "topic": "portfolio projects",
+    "text": "A portfolio is more than a collection of screenshots. It should explain the problem, the decisions made, the tools used, and what changed because of the solution. Clear context helps others understand the work."
+  },
+  {
+    "id": 9,
+    "category": "software_development",
+    "tone": "informative",
+    "topic": "clean code",
+    "text": "Clean code is not only about shorter functions or clever syntax. It is about making intent easy to understand, reducing unnecessary complexity, and helping the next person maintain the code with confidence."
+  },
+  {
+    "id": 10,
+    "category": "software_development",
+    "tone": "reflective",
+    "topic": "debugging",
+    "text": "Debugging has taught me to slow down and test assumptions. Instead of changing several things at once, I try to reproduce the issue, isolate the cause, and verify one change at a time."
+  },
+  {
+    "id": 11,
+    "category": "productivity",
+    "tone": "practical",
+    "topic": "prioritization",
+    "text": "A busy day is not always a productive day. I am trying to identify the few tasks that matter most, protect time for focused work, and review progress before adding more tasks to the list."
+  },
+  {
+    "id": 12,
+    "category": "productivity",
+    "tone": "inspirational",
+    "topic": "small habits",
+    "text": "Small habits may not feel impressive in the moment, but repeated actions compound over time. Choose a routine you can sustain, measure your progress, and give the process enough time to work."
+  },
+  {
+    "id": 13,
+    "category": "data_science",
+    "tone": "informative",
+    "topic": "data quality",
+    "text": "A model is only as useful as the data and evaluation behind it. Before focusing on complexity, check missing values, inconsistent labels, duplicated records, and whether the dataset reflects the problem you want to solve."
+  },
+  {
+    "id": 14,
+    "category": "data_science",
+    "tone": "professional",
+    "topic": "model evaluation",
+    "text": "Accuracy alone can hide important weaknesses, especially when classes are imbalanced. Precision, recall, F1 score, and a careful review of false positives and false negatives can provide a more complete picture."
+  },
+  {
+    "id": 15,
+    "category": "entrepreneurship",
+    "tone": "reflective",
+    "topic": "customer feedback",
+    "text": "An idea becomes more valuable when it is tested against real user needs. Listening to customers early can reveal assumptions, sharpen priorities, and prevent teams from spending time building features nobody needs."
+  },
+  {
+    "id": 16,
+    "category": "entrepreneurship",
+    "tone": "professional",
+    "topic": "starting small",
+    "text": "You do not need to solve every problem in version one. Start with a clear user problem, build the smallest useful solution, collect feedback, and improve based on evidence rather than guesses."
+  },
+  {
+    "id": 17,
+    "category": "networking",
+    "tone": "friendly",
+    "topic": "professional networking",
+    "text": "Networking works best when it is about genuine curiosity and mutual learning. Ask thoughtful questions, share what you know, and follow up when you have something relevant or useful to contribute."
+  },
+  {
+    "id": 18,
+    "category": "learning",
+    "tone": "reflective",
+    "topic": "learning by building",
+    "text": "When learning a new technology, I find it helpful to move from concepts to a small practical project as soon as possible. Applying the basics exposes gaps in understanding and makes the lessons easier to remember."
+  },
+  {
+    "id": 19,
+    "category": "workplace_culture",
+    "tone": "professional",
+    "topic": "communication",
+    "text": "Good communication is not about sharing more messages. It is about making the goal, context, owner, and next step clear. A few precise sentences can save a team hours of confusion."
+  },
+  {
+    "id": 20,
+    "category": "career_growth",
+    "tone": "grateful",
+    "topic": "mentorship",
+    "text": "I appreciate people who make time to share their experience and offer honest guidance. Mentorship can help us see options we missed, learn from others' mistakes, and approach challenges with more confidence."
+  }
+]
