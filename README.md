@@ -1,15 +1,60 @@
-# LinkdIn Post Generator
+# LinkedIn Post Generator
 
-This tool will analyze posts of a LinkedIn influencer and help them create the new posts based on the writing style in their old posts
+This is a small AI project that generates LinkedIn posts based on the user's requirements.
 
-<img src="resources/image.png"/>
+The idea behind this project is to use existing LinkedIn posts as examples and use an LLM to generate a new post with a similar style and structure.
 
-Let's say Mohan is a LinkedIn influencer and he needs help in writing his future posts. He can feed his past LinkedIn posts to this tool and it will extract key topics. Then he can select the topic, length, language etc. and use Generate button to create a new post that will match his writing style.
+## What does it do?
 
-## Technical Architecture
+The user can select things like:
 
-1. Stage 1: Collect LinkedIn posts and extract Topic, Language, Length etc. from it.
-1. Stage 2: Now use topic, language and length to generate a new post. Some of the past posts related to that specific topic, language and length will be used for few shot learning to guide the LLM about the writing style etc.
+- Language
+- Post length
+- Topic
+
+Based on these selections, the application finds some relevant posts from the dataset and uses them as examples while generating a new post.
+
+For example, if I select:
+
+- Language: Hinglish
+- Length: Medium
+- Topic: Job Search
+
+the application searches for posts matching these requirements and then uses them as few-shot examples for the LLM.
+
+## How the project works
+
+The project basically works in two parts.
+
+First, the raw LinkedIn posts are processed and some information is extracted from them, such as:
+
+- Language
+- Tags
+- Number of lines
+
+The processed data is then stored in `processed_posts.json`.
+
+When the user wants to generate a post, the application filters the processed posts according to the user's selection. The relevant posts are then added to the prompt as examples.
+
+The prompt is sent to the LLM, which generates the final LinkedIn post.
+
+### Flow
+
+Raw Posts  
+↓  
+Preprocessing  
+↓  
+Processed Posts  
+↓  
+User selects language, length and topic  
+↓  
+Find relevant examples  
+↓  
+Few-shot prompt  
+↓  
+LLM  
+↓  
+Generated LinkedIn Post
 
 ## Set-up
 
