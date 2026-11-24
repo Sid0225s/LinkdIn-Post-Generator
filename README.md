@@ -24,19 +24,11 @@ the application searches for posts matching these requirements and then uses the
 
 ## How the project works
 
-The project basically works in two parts.
+The project has two main stages: preprocessing and post generation.
 
-First, the raw LinkedIn posts are processed and some information is extracted from them, such as:
+During preprocessing, the raw LinkedIn posts are analyzed and information such as language, tags and line count is extracted. This information is stored in `processed_posts.json`.
 
-- Language
-- Tags
-- Number of lines
-
-The processed data is then stored in `processed_posts.json`.
-
-When the user wants to generate a post, the application filters the processed posts according to the user's selection. The relevant posts are then added to the prompt as examples.
-
-The prompt is sent to the LLM, which generates the final LinkedIn post.
+When the user generates a post, the application uses the selected language, length and topic to find relevant examples from the processed data. These examples are then included in the prompt sent to the LLM.
 
 ### Flow
 
